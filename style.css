@@ -15,35 +15,34 @@ body {
 .content {
     display: flex;
     flex-direction: column;
-    column-gap: 60px;
 }
 
 .inside-content1 {
     display: flex;
     flex-direction: row;
     width: auto;
-    height: 200px;
+    height: 174px;
     color: aliceblue;
     background-color: #536575;
     border-radius: 15px;
     margin-top: 45px;
     margin-left: 10px;
     margin-bottom: 10px;
-    column-gap: 5px;
+    column-gap: 15px;
 }
 
 .inside-content2 {
     display: flex;
     flex-direction: row;
     width: auto;
-    height: 200px;
+    height: 174px;
     color: aliceblue;
     background-color: #536575;
     border-radius: 15px;
     margin-top: 50px;
     margin-left: 10px;
     margin-bottom: 10px;
-    column-gap: 5px;
+    column-gap: 15px;
 }
 
 .text-content1 {
@@ -56,7 +55,7 @@ body {
 .text-content2 {
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: center;
     font-size: 1.5em;
 }
 
@@ -198,11 +197,23 @@ a {
 }
 
 .contacts {
-    justify-items: center;
-    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: white;
     border:3px solid #3D5467;
     background-color: #3D5467;
     border-radius: 10px;
     box-shadow: 0 3px 10px #3D5467;
+}
+
+.content a {
+    font-family: "Annai MN";
+    text-decoration: none;
+    color: white;
+    border: 2px solid #536575;
+    background-color: #536575;
+    border-radius: 7px;
+    box-shadow: 0 3px 10px #536575;
+
 }
