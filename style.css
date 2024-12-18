@@ -217,11 +217,13 @@ a {
     box-shadow: 0 3px 10px #3D5467;
 }
 
-.content {
-    gap: 50px;
+.content-about {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
 }
 
-.content a {
+.content-about a {
     font-family: "Annai MN";
     text-decoration: none;
     color: white;
